@@ -65,6 +65,22 @@ Thumbs.db
 !test_images/
 !test_images/*
 
+# FACTURAS Y DOCUMENTOS SENSIBLES
+# Excluir todas las facturas e imágenes de documentos
+*.pdf
+*factura*
+*invoice*
+test_invoices/
+invoice_results.json
+*_temp.png
+
+# Directorios con datos sensibles
+Descargas/
+Downloads/
+facturas/
+invoices/
+documentos/
+
 # Environment variables
 .env
 
